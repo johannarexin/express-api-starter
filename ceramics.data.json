@@ -1,49 +1,41 @@
 {
   "products": [
     {
-      "id": "1",
       "header": "Rubrik 1",
       "text": "Produktbeskrivning",
       "image": ""
     },
     {
-      "id": "2",
       "header": "Rubrik 2",
       "text": "Produktbeskrivning",
       "image": ""
     },
     {
-      "id": "3",
       "header": "Rubrik 3",
       "text": "Produktbeskrivning",
       "image": ""
     },
     {
-      "id": "4",
       "header": "Rubrik 4",
       "text": "Produktbeskrivning",
       "image": ""
     },
     {
-      "id": "5",
       "header": "Rubrik 5",
       "text": "Produktbeskrivning",
       "image": ""
     },
     {
-      "id": "6",
       "header": "Rubrik 6",
       "text": "Produktbeskrivning",
       "image": ""
     },
     {
-      "id": "7",
       "header": "Rubrik 7",
       "text": "Produktbeskrivning",
       "image": ""
     },
     {
-      "id": "8",
       "header": "Rubrik 8",
       "text": "Produktbeskrivning",
       "image": ""
