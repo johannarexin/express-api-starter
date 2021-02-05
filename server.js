@@ -3,7 +3,9 @@ import bodyParser from 'body-parser'
 import cors from 'cors'
 import mongoose from 'mongoose'
 
-import ceramics from './ceramics.data.json'
+import ceramics from './data/ceramics.data.json'
+
+console.log(ceramics)
 
 const port = process.env.PORT || 8080
 const app = express()
@@ -29,19 +31,32 @@ if (process.env.RESET_DATABASE) {
     ceramics.forEach((item) => {
       const newCeramic = new Ceramics(item)
       newCeramic.save()
-
     })
   }
   seedDatabase()
 }
 
-new Ceramics({ header: 'Hej', text: 'En fin kruka'}).save()
+// new Ceramics({ header: 'Hej', text: 'En fin kruka'}).save()
 
 
 // Start defining your routes here
 app.get('/', (req, res) => {
   res.send('This is an API with my ceramics. Best, Johanna Rexin')
 })
+
+// Endpoint 1, all the ceramics
+app.get('/ceramics', async (req, res) => {
+  const ceramics = await Ceramics.find()
+  res.json(ceramics)
+})
+
+// Endpoint 2, showing only one ceramics identified by id
+app.get('/ceramics/id/:id', async (req, res) => {
+  const { id } = req.params
+  const ceramicsId = await Ceramics.findOne({id: id})
+  res.json(ceramicsId)
+})
+
 
 // Start the server
 app.listen(port, () => {

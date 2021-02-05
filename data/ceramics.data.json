@@ -1,5 +1,4 @@
-{
-  "products": [
+[
     {
       "header": "Rubrik 1",
       "text": "Produktbeskrivning",
@@ -40,5 +39,4 @@
       "text": "Produktbeskrivning",
       "image": ""
     }
-  ]
-}
+]
