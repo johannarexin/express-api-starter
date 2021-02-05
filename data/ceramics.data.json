@@ -1,42 +1,42 @@
 [
     {
-      "header": "Rubrik 1",
+      "header": "Vaser",
       "text": "Produktbeskrivning",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1523264067855-7b9941f18ca9?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80"
     },
     {
-      "header": "Rubrik 2",
+      "header": "Skålar",
       "text": "Produktbeskrivning",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1525974160448-038dacadcc71?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
     },
     {
-      "header": "Rubrik 3",
+      "header": "Tallrikar",
       "text": "Produktbeskrivning",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1525973779373-015bdf68e579?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=967&q=80"
     },
     {
-      "header": "Rubrik 4",
+      "header": "Karaffer",
       "text": "Produktbeskrivning",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1523367662635-ec427c441fe6?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
     },
     {
-      "header": "Rubrik 5",
+      "header": "Muggar",
       "text": "Produktbeskrivning",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1525972757199-cf2ad7cc4f4b?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=966&q=80"
     },
     {
-      "header": "Rubrik 6",
+      "header": "Burkar",
       "text": "Produktbeskrivning",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1523028157244-c2827982798b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
     },
     {
-      "header": "Rubrik 7",
+      "header": "Bruna karaffer",
       "text": "Produktbeskrivning",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1523027737707-96c0e1fd54e4?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
     },
     {
-      "header": "Rubrik 8",
+      "header": "Salladsskål",
       "text": "Produktbeskrivning",
-      "image": ""
+      "image": "https://images.unsplash.com/photo-1523367310297-83064fc42a16?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=967&q=80"
     }
 ]

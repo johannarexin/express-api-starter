@@ -5,12 +5,9 @@ import mongoose from 'mongoose'
 
 import ceramics from './data/ceramics.data.json'
 
-console.log(ceramics)
-
 const port = process.env.PORT || 8080
 const app = express()
 
-// Add middlewares to enable cors and json body parsing
 app.use(cors())
 app.use(bodyParser.json())
 
@@ -21,25 +18,21 @@ mongoose.Promise = Promise
 const Ceramics = mongoose.model('Ceramics', {
   header: String,
   text: String,
-  // image: "" // VAD SKA EN BILD HA?
+  image: String
 })
 
 if (process.env.RESET_DATABASE) {
   const seedDatabase = async () => {
-    await Ceramics.deleteMany({})
+    await Ceramics.deleteMany()
 
-    ceramics.forEach((item) => {
+    ceramics.forEach(async (item) => {
       const newCeramic = new Ceramics(item)
-      newCeramic.save()
+      await newCeramic.save()
     })
   }
   seedDatabase()
 }
 
-// new Ceramics({ header: 'Hej', text: 'En fin kruka'}).save()
-
-
-// Start defining your routes here
 app.get('/', (req, res) => {
   res.send('This is an API with my ceramics. Best, Johanna Rexin')
 })
@@ -51,12 +44,11 @@ app.get('/ceramics', async (req, res) => {
 })
 
 // Endpoint 2, showing only one ceramics identified by id
-app.get('/ceramics/id/:id', async (req, res) => {
+app.get('/ceramics/:id', async (req, res) => {
   const { id } = req.params
-  const ceramicsId = await Ceramics.findOne({id: id})
+  const ceramicsId = await Ceramics.findById(id)
   res.json(ceramicsId)
 })
-
 
 // Start the server
 app.listen(port, () => {
