@@ -1,7 +1,11 @@
-# Express Starter Project
+# Final project, ceramics site
+The backend part of my final project, a ceramic site.
 
-This project includes the packages and babel setup for an express server, and is just meant to make things a little simpler to get up and running with.
+Built during Technigo Boot Camp fall 2020, project 21 out of 21.
 
-## Getting started
 
-Install dependencies with `npm install`, then start the server by running `npm run dev`
+# View it live
+https://final-project-backend-rexin.herokuapp.com/
+https://final-project-backend-rexin.herokuapp.com/ceramics
+https://final-project-backend-rexin.herokuapp.com/:id
+
